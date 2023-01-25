@@ -8,7 +8,6 @@ function App() {
   const [showQuestionPage, setShowQuestionPage] = useState(false);
   const [showFinalPage, setShowFinalPage] = useState(false);
   const [username, setUsername] = useState('');
-  const [score, setScore] = useState(0);
   const [topScore, setTopScore] = useState(0);
 
   return (
@@ -35,10 +34,8 @@ function App() {
           setShowFinalPage={setShowFinalPage}
           username={username}
           setUsername={setUsername}
-          score={score}
           topScore={topScore}
           setTopScore={setTopScore}
-          setScore={setScore}
         />
       )}
     </>
