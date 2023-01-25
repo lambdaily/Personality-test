@@ -35,11 +35,11 @@ const StartPage = ({
         Iniciar
       </button>
 
-      <img
+      {/* <img
         className="logo"
         src="https://www.pilar.com.py/wp-content/themes/pilar_2017/html/assets/img/logo.svg"
         alt=""
-      />
+      /> */}
     </Card>
   );
 };
