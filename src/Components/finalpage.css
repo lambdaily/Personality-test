@@ -1,0 +1,29 @@
+.heading {
+  margin: 2rem 0 2rem 0;
+}
+img {
+  width: 30%;
+}
+
+.primary_text,
+.heading,
+.final_score {
+  text-align: center;
+}
+
+.play_again_btn {
+  display: block;
+  margin: 5rem auto 0 auto;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 1rem;
+  letter-spacing: 2px;
+  background-color: #210242;
+  color: white;
+}
+
+.play_again_btn:hover {
+  background-color: #9198e5;
+}
