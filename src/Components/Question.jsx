@@ -19,7 +19,8 @@ const Question = ({
       setShowFinalPage(true);
     }
 
-    // console.log(questions[questionIndex].answers[0].dataValue);
+    // console.log(questions[questionIndex].answers[0].dataValue);´
+
     if (e.currentTarget.id == 1) {
       setTopScore((top_score) => (top_score += 1));
     }

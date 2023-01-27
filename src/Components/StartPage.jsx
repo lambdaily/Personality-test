@@ -20,6 +20,10 @@ const StartPage = ({
   return (
     <Card>
       <h1 className="header">¿Qué tipo de pareja eres?</h1>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/001/957/071/non_2x/continuous-line-drawing-romantic-couple-holding-hands-lovers-theme-concept-design-one-hand-drawn-minimalism-metaphor-of-love-illustration-isolated-on-white-background-vector.jpg"
+        alt="pareja"
+      />
 
       <h3 className="primary_text"> Responde las preguntas de este test.</h3>
       <input

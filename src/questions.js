@@ -50,4 +50,38 @@ export const questions = [
       },
     ],
   },
+  {
+    questionText: '¿Eres una persona romántica?',
+    answers: [
+      {
+        answerText: 'Sí',
+        dataValue: 1,
+      },
+      {
+        answerText: 'No, pero me gusta que me demuestren que me quieren',
+        dataValue: 2,
+      },
+      {
+        answerText: 'No, no me van esas cosas',
+        dataValue: 3,
+      },
+    ],
+  },
+  {
+    questionText: '¿Cómo sería tu cita ideal?',
+    answers: [
+      {
+        answerText: 'Un dia en un parque de atracciones',
+        dataValue: 1,
+      },
+      {
+        answerText: 'Una cena romántica',
+        dataValue: 2,
+      },
+      {
+        answerText: 'Pasear por algun sitio bonito',
+        dataValue: 3,
+      },
+    ],
+  },
 ];

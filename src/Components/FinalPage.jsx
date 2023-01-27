@@ -23,9 +23,9 @@ const FinalPage = ({
 
       <Answers topScore={topScore} />
 
-      <p className="top_score">
+      {/* <p className="top_score">
         Tu puntaje fue : <span> {topScore} </span>
-      </p>
+      </p> */}
       <button onClick={handleRestart} className="play_again_btn">
         Jugar de nuevo
       </button>
